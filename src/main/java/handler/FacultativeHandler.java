@@ -1,5 +1,10 @@
 package handler;
 
+import entity.Course;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
 // handler/FacultativeHandler.java
 @Component
 public class FacultativeHandler {

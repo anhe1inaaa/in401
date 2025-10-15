@@ -1,5 +1,7 @@
 package router;
 
+import org.springframework.context.annotation.Configuration;
+
 // router/FacultativeRouter.java
 @Configuration
 public class FacultativeRouter {
