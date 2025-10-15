@@ -1,7 +1,7 @@
-package handler;
+package ua.com.reactive.kovalova.handler;
 
-import entity.Course;
 import org.springframework.stereotype.Component;
+import ua.com.reactive.kovalova.entity.Course;
 
 import java.util.List;
 

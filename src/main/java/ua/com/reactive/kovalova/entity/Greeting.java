@@ -1,4 +1,4 @@
-package entity;
+package ua.com.reactive.kovalova.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

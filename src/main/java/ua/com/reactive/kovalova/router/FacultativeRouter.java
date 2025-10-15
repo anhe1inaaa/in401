@@ -1,9 +1,9 @@
-package router;
+package ua.com.reactive.kovalova.router;
 
 import org.springframework.context.annotation.Configuration;
 
 // router/FacultativeRouter.java
-@Configuration
+//@Configuration
 public class FacultativeRouter {
     public static final String COURSES = "/api/courses";
     public static final String STUDENTS = "/api/students";

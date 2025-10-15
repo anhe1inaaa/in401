@@ -1,19 +1,24 @@
-package controller;
+package ua.com.reactive.kovalova.controller;
 
 
-import entity.Course;
-import entity.Enrollment;
-import entity.Grade;
-import entity.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ua.com.reactive.kovalova.entity.Course;
+import ua.com.reactive.kovalova.entity.Enrollment;
+import ua.com.reactive.kovalova.entity.Grade;
+import ua.com.reactive.kovalova.entity.Student;
 
 import java.util.List;
 
-@RestController
 @RequestMapping("/api")
+@RestController
 public class FacultativeController {
+
+    @GetMapping("/")
+    public String getHello() {
+        return "hello world";
+    }
 
     @GetMapping("/courses")
     public List<Course> getCourses() {
@@ -47,4 +52,5 @@ public class FacultativeController {
         );
     }
 }
+
 

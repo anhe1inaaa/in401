@@ -1,4 +1,4 @@
-package entity;
+package ua.com.reactive.kovalova.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Grade {
+public class Enrollment {
     private Long id;
-    private Long enrollmentId;
-    private Integer score;
+    private Long studentId;
+    private Long courseId;
 }
